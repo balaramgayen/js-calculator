@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: powderblue;
+  margin-left: 200px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  height: auto;
+  padding: 8px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: rgb(102, 174, 228);
+  color: white;
+  font-size: 18;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.displayM input {
+  width: 93%;
+  font-size: 22px;
+  font-weight: bolder;
+}
